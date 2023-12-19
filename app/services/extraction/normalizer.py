@@ -34,6 +34,4 @@ def normalize_duration(duration_str: str) -> str:
     if day_match:
         days = int(day_match.group(1))
 
-    print(f'{years}_{months}_{weeks}_{days}')
-
     return f'{years}_{months}_{weeks}_{days}'
